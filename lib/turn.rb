@@ -38,4 +38,5 @@ def turn(board)
     move(board, player_turn)
   else
     turn(board)
+  end
 end

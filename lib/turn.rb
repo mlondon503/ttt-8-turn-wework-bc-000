@@ -26,6 +26,7 @@ end
 def move(board, index, character = "X")
   if valid_move?(board, index)
     board[index] = character
+    display_board(board)
   end
 end
 
